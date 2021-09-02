@@ -1399,7 +1399,7 @@ body[data-state="intro"] .scroll-arrow-wrap:hover span::before,
 body[data-state="intro"] .scroll-arrow-wrap:hover span::after,
 body[data-state="intro"] .back-to-top-arrow-wrap:hover span::before,
 body[data-state="intro"] .back-to-top-arrow-wrap:hover span::after {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 
 body[data-state="who"] .scroll-arrow-wrap:hover span::before,
@@ -1596,288 +1596,6 @@ body[data-state="intro"] .scroll-arrow span::after {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
-
-
-/* 
-.logo-animation .logo-piece:nth-child(1) div,
-.logo-animation .logo-piece:nth-child(1) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.01s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.01s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.01s;
-}
-
-.logo-animation .logo-piece:nth-child(2) div,
-.logo-animation .logo-piece:nth-child(2) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.02s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.02s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.02s;
-}
-
-.logo-animation .logo-piece:nth-child(3) div,
-.logo-animation .logo-piece:nth-child(3) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.03s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.03s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.03s;
-}
-
-.logo-animation .logo-piece:nth-child(4) div,
-.logo-animation .logo-piece:nth-child(4) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.04s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.04s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.04s;
-}
-
-.logo-animation .logo-piece:nth-child(5) div,
-.logo-animation .logo-piece:nth-child(5) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.05s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.05s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.05s;
-}
-
-.logo-animation .logo-piece:nth-child(6) div,
-.logo-animation .logo-piece:nth-child(6) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.06s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.06s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.06s;
-}
-
-.logo-animation .logo-piece:nth-child(7) div,
-.logo-animation .logo-piece:nth-child(7) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.07s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.07s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.07s;
-}
-
-.logo-animation .logo-piece:nth-child(8) div,
-.logo-animation .logo-piece:nth-child(8) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.08s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.08s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.08s;
-}
-
-.logo-animation .logo-piece:nth-child(9) div,
-.logo-animation .logo-piece:nth-child(9) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.09s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.09s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.09s;
-}
-
-.logo-animation .logo-piece:nth-child(10) div,
-.logo-animation .logo-piece:nth-child(10) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.1s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.1s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.1s;
-}
-
-.logo-animation .logo-piece:nth-child(11) div,
-.logo-animation .logo-piece:nth-child(11) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.11s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.11s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.11s;
-}
-
-.logo-animation .logo-piece:nth-child(12) div,
-.logo-animation .logo-piece:nth-child(12) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.12s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.12s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.12s;
-}
-
-.logo-animation .logo-piece:nth-child(13) div,
-.logo-animation .logo-piece:nth-child(13) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.13s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.13s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.13s;
-}
-
-.logo-animation .logo-piece:nth-child(14) div,
-.logo-animation .logo-piece:nth-child(14) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.14s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.14s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.14s;
-}
-
-.logo-animation .logo-piece:nth-child(15) div,
-.logo-animation .logo-piece:nth-child(15) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s;
-}
-
-.logo-animation .logo-piece:nth-child(16) div,
-.logo-animation .logo-piece:nth-child(16) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.16s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.16s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.16s;
-}
-
-.logo-animation .logo-piece:nth-child(17) div,
-.logo-animation .logo-piece:nth-child(17) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.17s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.17s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.17s;
-}
-
-.logo-animation .logo-piece:nth-child(18) div,
-.logo-animation .logo-piece:nth-child(18) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.18s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.18s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.18s;
-}
-
-.logo-animation .logo-piece:nth-child(19) div,
-.logo-animation .logo-piece:nth-child(19) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.19s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.19s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.19s;
-}
-
-.logo-animation .logo-piece:nth-child(20) div,
-.logo-animation .logo-piece:nth-child(20) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.2s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.2s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.2s;
-}
-
-.logo-animation .logo-piece:nth-child(21) div,
-.logo-animation .logo-piece:nth-child(21) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.21s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.21s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.21s;
-}
-
-.logo-animation .logo-piece:nth-child(22) div,
-.logo-animation .logo-piece:nth-child(22) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.22s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.22s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.22s;
-}
-
-.logo-animation .logo-piece:nth-child(23) div,
-.logo-animation .logo-piece:nth-child(23) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.23s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.23s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.23s;
-}
-
-.logo-animation .logo-piece:nth-child(24) div,
-.logo-animation .logo-piece:nth-child(24) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.24s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.24s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.24s;
-}
-
-.logo-animation .logo-piece:nth-child(25) div,
-.logo-animation .logo-piece:nth-child(25) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.25s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.25s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.25s;
-}
-
-.logo-animation .logo-piece:nth-child(26) div,
-.logo-animation .logo-piece:nth-child(26) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.26s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.26s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.26s;
-}
-
-.logo-animation .logo-piece:nth-child(27) div,
-.logo-animation .logo-piece:nth-child(27) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.27s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.27s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.27s;
-}
-
-.logo-animation .logo-piece:nth-child(28) div,
-.logo-animation .logo-piece:nth-child(28) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.28s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.28s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.28s;
-}
-
-.logo-animation .logo-piece:nth-child(29) div,
-.logo-animation .logo-piece:nth-child(29) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.29s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.29s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.29s;
-}
-
-.logo-animation .logo-piece:nth-child(30) div,
-.logo-animation .logo-piece:nth-child(30) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.3s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.3s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.3s;
-}
-
-.logo-animation .logo-piece:nth-child(31) div,
-.logo-animation .logo-piece:nth-child(31) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.31s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.31s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.31s;
-}
-
-.logo-animation .logo-piece:nth-child(32) div,
-.logo-animation .logo-piece:nth-child(32) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.32s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.32s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.32s;
-}
-
-.logo-animation .logo-piece:nth-child(33) div,
-.logo-animation .logo-piece:nth-child(33) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.33s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.33s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.33s;
-}
-
-.logo-animation .logo-piece:nth-child(34) div,
-.logo-animation .logo-piece:nth-child(34) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.34s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.34s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.34s;
-}
-
-.logo-animation .logo-piece:nth-child(35) div,
-.logo-animation .logo-piece:nth-child(35) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.35s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.35s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.35s;
-}
-
-.logo-animation .logo-piece:nth-child(36) div,
-.logo-animation .logo-piece:nth-child(36) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.36s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.36s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.36s;
-}
-
-.logo-animation .logo-piece:nth-child(37) div,
-.logo-animation .logo-piece:nth-child(37) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.37s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.37s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.37s;
-}
-
-.logo-animation .logo-piece:nth-child(38) div,
-.logo-animation .logo-piece:nth-child(38) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.38s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.38s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.38s;
-}
-
-.logo-animation .logo-piece:nth-child(39) div,
-.logo-animation .logo-piece:nth-child(39) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.39s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.39s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.39s;
-}
-
-.logo-animation .logo-piece:nth-child(40) div,
-.logo-animation .logo-piece:nth-child(40) div::before {
-    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.4s;
-    -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.4s;
-    transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.4s;
-} */
 
 .page-content[data-active="off"] .logo-animation .logo-piece div {
     -webkit-transform: translate3d(-105%, 0, 0);
@@ -2516,13 +2234,13 @@ nav,
 }
 
 .intro-content h1 {
-    color: #fffade;
+    color: #3d3d3d;
 }
 
 .intro-content h3,
 .intro-content h2,
 .intro-content p {
-    color: rgba(33, 33, 33, 0.9);
+    color: rgba(134, 134, 134, 0.9);
 }
 
 .intro-content a {
@@ -2530,11 +2248,11 @@ nav,
 }
 
 .intro-content h3::after {
-    background-color: #fffade;
+    background-color: #ffffff;
 }
 
 .intro-content .ledge::before {
-    background-color: #ffd948;
+    background-color: #e7e7e7;
 }
 
 body[data-state="intro"] .underline-link::after {
@@ -2575,15 +2293,15 @@ body[data-state="intro"] .icon-linkedin::before {
 
 .who-content .ledge::before,
 .who-content .exploded-figures-section[data-active="off"] .ledge::before {
-    background-color: #214fc6;
+    background-color: #161616;
 }
 
 body[data-state="who"] .underline-link::after {
-    background-color: #1544c0;
+    background-color: #1f1f1f;
 }
 
 body[data-state="who"] .underline-link:hover span {
-    color: #1544c0;
+    color: #4b4c4e;
 }
 
 body[data-state="who"] .icon-mail::before {
@@ -2619,7 +2337,7 @@ body[data-state="who"] .icon-linkedin::before {
 }
 
 .what-content .white-bg h3::after {
-    background-color: #f86449;
+    background-color: #000000;
 }
 
 .what-content .ledge {
@@ -2631,11 +2349,11 @@ body[data-state="who"] .icon-linkedin::before {
 }
 
 body[data-state="what"] .underline-link::after {
-    background-color: #f86449;
+    background-color: #000000;
 }
 
 body[data-state="what"] .underline-link:hover span {
-    color: #f86449;
+    color: #000000;
 }
 
 body[data-state="what"] a.icon-mail::before {
@@ -2676,17 +2394,17 @@ body[data-state="what"] a.icon-linkedin::before {
 
 body[data-state="work"] .ledge>div,
 body[data-state="project"] .ledge>div {
-    background-color: #5817b3;
+    background-color: #000000;
 }
 
 body[data-state="work"] .underline-link::after,
 body[data-state="project"] .underline-link::after {
-    background-color: #5210ac;
+    background-color: #000000;
 }
 
 body[data-state="work"] .underline-link:hover span,
 body[data-state="project"] .underline-link:hover span {
-    color: #5210ac;
+    color: #000000;
 }
 
 body[data-state="work"] a.icon-mail::before,
@@ -5181,23 +4899,25 @@ footer.condensed[data-active="on"] .footer-footer {
     margin: -20vw 0 0 -20vw;
 }
 
-.exploded-figures .jonny-exploded {
+
+/* .exploded-figures .jonny-exploded {
     left: -25vw;
     background: url("../img/figures/tinified/jonny-exploded.png") no-repeat center center/100% 100%;
     top: 7vw;
     -webkit-transition: 0.65s cubic-bezier(0.52, 0.01, 0.16, 1) 0.4s;
     -moz-transition: 0.65s cubic-bezier(0.52, 0.01, 0.16, 1) 0.4s;
     transition: 0.65s cubic-bezier(0.52, 0.01, 0.16, 1) 0.4s;
-}
+} */
 
-.exploded-figures .leigh-exploded {
+
+/* .exploded-figures .leigh-exploded {
     left: 23vw;
     top: -6vw;
     background: url("../img/figures/tinified/leigh-exploded.png") no-repeat center center/100% 100%;
     -webkit-transition: 0.65s cubic-bezier(0.52, 0.01, 0.16, 1) 0.65s;
     -moz-transition: 0.65s cubic-bezier(0.52, 0.01, 0.16, 1) 0.65s;
     transition: 0.65s cubic-bezier(0.52, 0.01, 0.16, 1) 0.65s;
-}
+} */
 
 section.left-aligned-section {
     padding: 20vw 0 10vw;
@@ -5242,7 +4962,7 @@ section.left-aligned-section .content h1 {
 
 section.profile-section h1,
 section.profile-section h3 {
-    color: #1544c0;
+    color: #f1f1f1;
 }
 
 section.profile-section .social-list {
@@ -5551,43 +5271,43 @@ section.profile-section[data-active="off"] .profile-figure div {
         height: 300px;
     }
     section.profile-section .mob-jon {
-        background: url("../img/figures/mob/tinified/jon-mob.png") no-repeat center bottom/380px;
+        background: url("../img/figures/mob/tinified/jon-mob.ng") no-repeat center bottom/380px;
     }
     section.profile-section .mob-leigh {
-        background: url("../img/figures/mob/tinified/leigh-mob.png") no-repeat center bottom/380px;
+        background: url("../img/figures/mob/tinified/leigh-mob.pg") no-repeat center bottom/380px;
     }
 }
 
 .jon-profile-figure div:nth-child(1) {
-    background: url("../img/figures/tinified/jon-exploded-face-on-1.png") no-repeat center center/100%;
+    background: url("../img/figures/tinified/jon-exploded-face-on-1.pg") no-repeat center center/100%;
 }
 
 .jon-profile-figure div:nth-child(2) {
-    background: url("../img/figures/tinified/jon-exploded-face-on-2.png") no-repeat center center/100%;
+    background: url("../img/figures/tinified/jon-exploded-fac-on-2.png") no-repeat center center/100%;
 }
 
 .jon-profile-figure div:nth-child(3) {
-    background: url("../img/figures/tinified/jon-exploded-face-on-3.png") no-repeat center center/100%;
+    background: url("../img/figures/tinified/jon-explded-face-on-3.png") no-repeat center center/100%;
 }
 
 .jon-profile-figure div:nth-child(4) {
-    background: url("../img/figures/tinified/jon-exploded-face-on-4.png") no-repeat center center/100%;
+    background: url("../img/figures/tinified/jon-explded-face-on-4.png") no-repeat center center/100%;
 }
 
 .leigh-profile-figure div:nth-child(1) {
-    background: url("../img/figures/tinified/leigh-exploded-face-on-1.png") no-repeat center center/100%;
+    background: url("/web-image/200926_mr.mp4") no-repeat center center/100%;
 }
 
 .leigh-profile-figure div:nth-child(2) {
-    background: url("../img/figures/tinified/leigh-exploded-face-on-2.png") no-repeat center center/100%;
+    background: url("../img/figures/tinified/leigh-explodd-face-on-2.png") no-repeat center center/100%;
 }
 
 .leigh-profile-figure div:nth-child(3) {
-    background: url("../img/figures/tinified/leigh-exploded-face-on-3.png") no-repeat center center/100%;
+    background: url("../img/figures/tinified/leigh-explded-face-on-3.png") no-repeat center center/100%;
 }
 
 .leigh-profile-figure div:nth-child(4) {
-    background: url("../img/figures/tinified/leigh-exploded-face-on-4.png") no-repeat center center/100%;
+    background: url("../img/figures/tinified/leigh-explded-face-on-4.png") no-repeat center center/100%;
 }
 
 .work-intro {
@@ -8405,6 +8125,11 @@ html.safari-browser .corner-project-back span.text {
         -o-transform: translateY(0px);
         transform: translateY(0px);
     }
+}
+
+#myVdeo {
+    position: fixed;
+    object-fit: fill;
 }
 
 
