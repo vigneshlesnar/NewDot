@@ -5,8 +5,8 @@ div {
 img {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
     filter: gray;
-    padding: 20px;
-    height: 50px;
+    padding: 0px 10px;
+    height: 60px;
     /* IE5+ */
     -webkit-filter: grayscale(1);
     /* Webkit Nightlies & Chrome Canary */

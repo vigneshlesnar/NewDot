@@ -1369,7 +1369,7 @@ a.arrow-link:hover span::before {
     width: 660px;
     height: 330px;
     margin: -165px 0 0 -330px;
-    background: url("../img/ui/text-logo.svg") no-repeat center center/50%;
+    background: url("../img/ui/text-logo.png") no-repeat center center/100%;
 }
 
 .scroll-arrow-wrap {
@@ -1597,6 +1597,8 @@ body[data-state="intro"] .scroll-arrow span::after {
     -webkit-backface-visibility: hidden;
 }
 
+
+/* 
 .logo-animation .logo-piece:nth-child(1) div,
 .logo-animation .logo-piece:nth-child(1) div::before {
     -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.01s;
@@ -1875,7 +1877,7 @@ body[data-state="intro"] .scroll-arrow span::after {
     -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.4s;
     -moz-transition: -moz-transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.4s;
     transition: transform 0.45s cubic-bezier(0.62, 0.02, 0.34, 1) 0.4s;
-}
+} */
 
 .page-content[data-active="off"] .logo-animation .logo-piece div {
     -webkit-transform: translate3d(-105%, 0, 0);
@@ -4449,16 +4451,25 @@ section[data-active="on"]:not(.scroll-content-shown) h3::after {
 .logo-matrix li {
     width: 12vw;
     height: 6.2vw;
-    float: left;
+    /* float: left; */
     position: relative;
     margin-bottom: 0.25em;
     margin-top: 0.25em;
     max-height: 96px;
-    max-width: 152px;
+    max-width: 100px;
     -webkit-backface-visibility: hidden;
-    background-size: 100%;
+    background-size: 50%;
     background-repeat: no-repeat;
+    -webkit-filter: grayscale(1);
+    /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .8s ease-in-out;
     background-position: center center;
+}
+
+.logo-matrix li:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
 }
 
 .logo-matrix li:after {
