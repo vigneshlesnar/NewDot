@@ -1474,6 +1474,10 @@ header[data-state="project"] .work-figures {
     /* width: auto; */
 }
 
+.intro-figures .figures {
+    background-image: url("../img/figures/mob/tinified/intro.png")
+}
+
 .who-figures .figures {
     background-image: url("../img/figures/mob/tinified/who-figures.png")
 }
