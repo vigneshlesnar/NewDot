@@ -660,11 +660,11 @@ body[data-state="work"] .mob-nav::before {
 
 #myVideo {
     width: 100%;
-    height: 100%;
+    height: auto;
     background-attachment: fixed;
     background-size: 100% 100%;
     position: relative;
-    background-color: white;
+    /* background-color: white; */
     margin: auto;
     z-index: 2;
 }
@@ -1065,9 +1065,9 @@ header[data-state="project"] .work-figures {
 }
 
 @media (min-width: 767px) {
-    . videoes {
+    /* video {
         display: none;
-    }
+    } */
     /* .intro-figures .figures {
         background-image: url("/web-image/intro.png")
     } */
@@ -1149,7 +1149,7 @@ header[data-state="project"] .work-figures {
 }
 
 body[data-state="intro"] .contact-modal::before {
-    background-color: #ffd42d;
+    background-color: #1b1b1b;
 }
 
 body[data-state="who"] .contact-modal::before {
@@ -1278,7 +1278,7 @@ body[data-state="work"] .contact-modal::before {
 
 body[data-state="intro"] .contact-modal .close:hover span:nth-child(2)::before,
 body[data-state="intro"] .contact-modal .close:hover span:nth-child(2)::after {
-    background-color: #ffd42d;
+    background-color: #000000;
 }
 
 body[data-state="who"] .contact-modal .close:hover span:nth-child(2)::before,
